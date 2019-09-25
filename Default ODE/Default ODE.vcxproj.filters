@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4c47c0c6-ad9c-40ba-8d22-bc2f5082b9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utilitys">
+      <UniqueIdentifier>{90d4fc15-ae5f-41bd-a3fa-405198ae301e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Framework">
+      <UniqueIdentifier>{db055a3d-a4aa-45d9-a181-628382914e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{e5c4b404-8102-422b-a457-c1df914e2898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Agent">
+      <UniqueIdentifier>{7ab0c22b-031a-4b3d-8cb8-4bcc5836a59c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainCore.cpp">
+      <Filter>Core\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClass.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="KeyModule.cpp">
+      <Filter>Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Predator.cpp">
+      <Filter>Scenes\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Prey.cpp">
+      <Filter>Scenes\Agent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainCore.h">
+      <Filter>Core\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClass.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="KeyModule.h">
+      <Filter>Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Predator.h">
+      <Filter>Scenes\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Prey.h">
+      <Filter>Scenes\Agent</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
